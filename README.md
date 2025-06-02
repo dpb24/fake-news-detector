@@ -1,7 +1,7 @@
 # 📰 Fake News Detector: Binary Classification Model <br>
 
 **Libraries:** `scikit-learn`, `XGBoost`, `matplotlib`, `pandas`, `numpy` <br>
-**Dataset:** [ISOT Fake News Detection [Dataset](https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/) <br>
+**Dataset:** [ISOT Fake News Detection Dataset](https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/) <br>
 
 In this project we use the 🐍 Python libraries [scikit-learn](https://scikit-learn.org/stable/) and [XGBoost](https://xgboost.readthedocs.io/en/stable/) to build a machine learning model that classifies news articles as fake or real. We combine classical machine learning techniques with engineered textual features to improve model generalisability and performance. <br>
 
