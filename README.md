@@ -13,9 +13,9 @@ In this project we use the 🐍 Python libraries [scikit-learn](https://scikit-l
  - **Robustness:** Removed dataset-specific artefacts (eg. *reuters*) from BoW to improve generalisability <br>
 
 ## ✅ Results
- - 🤖 **XGBoost ensemble** outperformed **Decision tree** with **~99.8%** accuracy, precision, recall, and F1 score
- - 🌲 **Best model parameters:** 100 trees, max depth: 7, learning rate: 0.2, subsample: 1.0, min child weight: 2
- - **Top feature:** `headline_capitalised` (engineered) was most frequently used for splitting <br>
+ - 🤖 **XGBoost ensemble** achieved **~99.8%** accuracy, precision, recall, and F1 score
+ - **Top feature:** `headline_capitalised` (engineered)
+ - **Fun insight:** second most important vectorized word for classification — "Trump" 🇺🇸
 
 ## 🔭 Future Work
  - Test on more diverse, real-world datasets
